@@ -20,5 +20,8 @@ Para mejorar el proyecto original:
 # Implementación extra
 2.  **Comparación con GRU**  
         Con el fin de hacer una rápida compración con otros modelos, se implementó en *model.py* la función *get_modelGRU()* la cual es bastante similar a la función original *get_model()* aunque más sencilla, adaptada a la estrctura GRU y con menos neuronas así como un menor dropout.  
-        Sin embargo, los modelos resultaron tener un desempeño muy similar y con muy ligeras variaciones. 
+        Sin embargo, los modelos resultaron tener un desempeño muy similar y con muy ligeras variaciones.
+    Para hacer la comparación de los modelos, se documentaron las métricas como Accuracy y F1 Score.
+    <img width="527" height="300" alt="image" src="https://github.com/user-attachments/assets/51866936-8a3f-4b21-bb09-183ac2fdbae9" />
+
 
