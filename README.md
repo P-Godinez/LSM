@@ -1,3 +1,11 @@
+# INSTRUCCIONES DE USO
+1. Correr *capture_samples.py* para hacer una grabación de muestras.
+2. Correr *normalize_samples.py* para asegurar que todas las muestras tengan la misma cantidad de frames.
+3. Correr *create_keypoints.py* para generar los archivos h.5
+4. Correr *training_model.py* para entrenar al modelo. NOTA: Se puede cambiar entre funciones getModel() y getModelGRU() para cambiar la estructura ya sea LSTM o GRU.
+5. Correr *evaluate_model.py* para realizar pruebas.
+6. Correr *main.py*
+
 El presente es un proyecto académico con el fin de entrenar una red neural para la detección de señas de LSM (lenguaje de señas mexicano).  
 
 NOTA: Para la realización del proyecto se hizo uso con un repositorio público: https://github.com/ronvidev/modelo_lstm_lsp/tree/main. Se debe de mencionar también que se detectó en el código original un alto índice de uso de IA generativa.   
